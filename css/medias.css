@@ -1,0 +1,121 @@
+/* Smaller */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	/* Styles */
+	.special-heading {
+		font-size: 70px;
+		letter-spacing: -5px;
+	}
+	.special-heading + p {
+		margin: -20px 0 0;
+	}
+	#about .about-content {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+	#about .about-content .image {
+		display: flex;
+		justify-content: center;
+	}
+	#about .about-content .image img {
+		max-width: 40%;
+	}
+	#about .about-content .info hr {
+		max-width: 70%;
+		border-color: var(--aqua);
+	}
+	#about .about-content .image::before {
+		display: none;
+	}
+	#about .about-content .image::after {
+		display: none;
+	}
+	#contact .contact-mail a {
+		font-size: 1.5rem;
+	}
+	#contact .contact-mail h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+}
+@media (max-width: 425px) {
+	.services-content .col .service {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.services-content .col .service .text {
+		text-align: center;
+	}
+	#about .about-content {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+	#about .about-content .image {
+		display: flex;
+		justify-content: center;
+	}
+	#about .about-content .image img {
+		max-width: 40%;
+	}
+	#about .about-content .info hr {
+		max-width: 70%;
+		border-color: var(--aqua);
+	}
+	#about .about-content .image::before {
+		display: none;
+	}
+	#about .about-content .image::after {
+		display: none;
+	}
+}
+/* Small */
+@media (max-width: 768px) {
+	#about .about-content {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+	#about .about-content .image {
+		display: flex;
+		justify-content: center;
+	}
+	#about .about-content .image img {
+		max-width: 40%;
+	}
+	#about .about-content .info hr {
+		max-width: 70%;
+		border-color: var(--aqua);
+	}
+	#about .about-content .image::before {
+		display: none;
+	}
+	#about .about-content .image::after {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (max-width: 1030px) {
+	.services-content .col .image {
+		display: none;
+	}
+}
+/* Medium */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+/* Large */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+/* End media */
